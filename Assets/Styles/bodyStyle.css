@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body #changeHeading {
+    margin-left: 163px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+#changeHeading a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+#changeHeading:hover {
+    cursor: pointer;
+}
+
+#simpleHeading {
+    margin: 40px 0px 0px 200px;
+}
+
+#simpleHeading a {
+    color: black;
+    text-decoration: none;
+}
+
+#simpleHeading a:visited {
+    color: black;
+}
+
+#simpleHeading a:hover {
+    cursor: pointer;
+}
+
+#display {
+    height: 50px;
+    width: 282px;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+#display p {
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    font-style: italic;
+    float: right;
+}
+
+#show_result {
+    height: 50px;
+    width: 262px;
+    background-color: #f0f0f0;
+    padding-left: 20px;
+    margin-bottom: 4px;
+    border: none;
+    outline: none;
+}
+
+#show_result #displaying_result {
+    float: right;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 00;
+    font-style: oblique;
+
+}
+
+
+
+#show_result:active {}
+
+#basicBtns {}
+
+#basicBtns button {
+    font-size: 21.7px;
+    margin-bottom: 4px;
+    border-style: none;
+    border-radius: 15%;
+    width: 60px;
+    height: 60px;
+}
+
+#basicBtns button:hover {
+    background-color: #dbd8d8;
+    transition-duration: 0.2s;
+}
+
+#basicBtns button:active {
+    background-color: #f0f0f0;
+    transition-duration: 0.25s;
+}
+
+#powerBtn,
+#percentageBtn,
+#divisionBtn,
+#multiplicationBtn,
+#minusBtn,
+#plusBtn,
+#pointBtn {
+    background-color: #f0f0f0;
+    color: #50A3E9;
+}
+
+#clearBtn {
+    color: #FE0101;
+}
+
+
+#isEqualToBtn {
+    color: white;
+    background-color: #50A3E9;
+}
+
+/* Element Invisiblity */
+.invisibile {
+    display: none;
+}
+
+
+/* The resposive-ness/ The mobile phone mode */
+
+@media (min-width: 300px) and (max-width: 500px) {
+    #simpleHeading {
+        margin-left: 10px;
+    }
+
+    #simpleHeading a {
+        font-size: 32px;
+        color: black;
+        text-decoration: none;
+    }
+
+    #changeHeading a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: black;
+        text-decoration: none;
+    }
+
+
+    #display {
+        height: 55px;
+        width: 332px;
+        border: none;
+        background-color: #f0f0f0;
+    }
+
+    #result {
+        height: 55px;
+        width: 312px;
+        background-color: #f0f0f0;
+        padding-left: 20px;
+        margin-bottom: 4px;
+        border: none;
+        outline: none;
+    }
+
+    #display p {
+        padding-top: 10px;
+        font-size: 29px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    #basicBtns button {
+        font-size: 31.7px;
+        margin-bottom: 4px;
+        border-style: none;
+        border-radius: 20%;
+        width: 70px;
+        height: 70px;
+    }
+
+}
